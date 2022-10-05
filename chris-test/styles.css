@@ -1,0 +1,18 @@
+*{
+	color: white;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+
+.playArea{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
