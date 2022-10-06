@@ -1,3 +1,7 @@
+#Chris attempting to reverse engineer some code.
+
+There's a non working demo, but the chris-test folder works as an interesting circle visualizer.
+
 # Joy-Con WebHID
 
 A [WebHID](https://web.dev/hid) driver for
