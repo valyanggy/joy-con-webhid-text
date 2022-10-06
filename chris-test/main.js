@@ -27,8 +27,8 @@ function accelerationTest(num){
   var colorZ = map(aZ, -90, 90, 0, 255);
 
   var circ = document.getElementById("circle");
-  circ.style.height = aX + "vh"
-  circ.style.width = aZ + "vw"
+  circ.style.height = aZ + "vh"
+  circ.style.width = aY + "vw"
   circ.style.backgroundColor = "rgb(" + colorX + ", " + colorY + ", " + colorZ + ")";
 }
 
