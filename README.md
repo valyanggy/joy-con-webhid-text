@@ -1,4 +1,4 @@
-#Chris attempting to reverse engineer some code.
+# Chris attempting to reverse engineer some code.
 
 There's a non working demo, but the chris-test folder works as an interesting circle visualizer.
 
