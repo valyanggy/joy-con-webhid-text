@@ -14,5 +14,12 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 }
 
+#circle{
+	border-radius: 50%;
+	height: 20vw;
+	width: auto;
+	background-color: blue;
+}

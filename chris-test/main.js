@@ -15,14 +15,20 @@ function constrain(n, low, high) {
   return Math.max(Math.min(n, high), low);
 };
 
-function colorChange(num){
-	var aX = num.alpha
-	var aY = num.beta
-	var aZ = num.gamma
+function accelerationTest(num){
+	var aX = num.alpha;
+	var aY = num.beta;
+  var aZ = num.gamma;
+  // var para = document.getElementById("tutorial");
+  // para.innerHTML = aX + ", " + aY + ", " + aZ; 
 
+  var colorX = map(aX, -90, 90, 0, 255);
+  var colorY = map(aY, -90, 90, 0, 255);
+  var colorZ = map(aZ, -90, 90, 0, 255);
 
-	var newP = document.createElement("p"); 
-	var textNode = document.createTextNode(aX + ", " + aY + ", " + aZ); 
-	newP.appendChild(textNode);
-    document.getElementById("playArea").appendChild(newP);
+  var circ = document.getElementById("circle");
+  circ.style.height = aX + "vh"
+  circ.style.width = aZ + "vw"
+  circ.style.backgroundColor = "rgb(" + colorX + ", " + colorY + ", " + colorZ + ")";
 }
+
